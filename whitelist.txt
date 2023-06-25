@@ -20,7 +20,13 @@
 @@||graph.facebook.com^$important
 @@||icloud.com^$important
 @@||apple.com^$important
-@@||youtubei.googleapis.com^$important
-@@||google.com^$important
 @@||facebook.com^$important
+@@||google.com^$important
+@@||gateway.fe.apple-dns.net^$important
+@@||googleusercontent.com^$important
+@@||googlevideo.com^$important
+@@||gstatic.com^$important
 @@||googleapis.com^$important
+@@||youtube.com^$important
+@@||linecorp.com^$important
+@@||line-apps.com^$important
