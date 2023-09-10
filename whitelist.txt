@@ -1,32 +1,117 @@
-||www.googleadservices.com^$important
+# allow all by client
+# @@||*.*^$client='192.168.68.240'
+# @@||*.*^$client='192.168.68.241'
+# @@||*.*^$client='192.168.68.242'
+##################################
+# custom rules
 /.*baidu.*/
-||adservice.google.com^$important
+/.*taobao.*/
 @@||imasdk.googleapis.com^$important
-@@||gvt2.com^$important
-@@||gvt3.com^$important
-||www.yingwangtech.net^$important
+||yingwangtech.net^$important
 /.*mcafee.*/
 /.*bitdefender.*/
 /.*mobicontrol.*/
-@@||microsoft.com^$important
-@@||discord.com^$important
-@@||amazon.com^$important
+/.*ads.*/
 ||skyhigh.cloud^$important
 @@||vk.com^$important
-@@||battle.net^$important
 @@||connect.facebook.com^$important
 @@||connect.facebook.net^$important
-@@||crashlyticsreports-pa.googleapis.com^$important
-@@||graph.facebook.com^$important
-@@||icloud.com^$important
-@@||apple.com^$important
-@@||facebook.com^$important
-@@||google.com^$important
-@@||gateway.fe.apple-dns.net^$important
-@@||googleusercontent.com^$important
-@@||googlevideo.com^$important
-@@||gstatic.com^$important
-@@||googleapis.com^$important
-@@||youtube.com^$important
-@@||linecorp.com^$important
-@@||line-apps.com^$important
+@@||windows.com^$important
+@@||microsoft.com^$important
+@@||bing.com^$important
+/.*kaspersky.*/
+@@||tt-torrent.com^$important
+@@||click.discord.com^$important
+@@||mega.nz^$important
+@@||mega.co.nz^$important
+||www.googleadservices.com^$important
+# ||smartadserver.com^$important
+@@||spclient.wg.spotify.com^$important
+||opendns.com^$important
+@@||app.airasia.com^$important
+
+##################################### ttb work ##########################################################
+169.254.156.100 host.docker.internal
+169.254.156.100 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+#Swagger UAT2
+10.171.243.127    products-exp-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    creditcard-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 lending-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    payment-exp-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com     
+10.171.243.127 firebase-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-exp-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 common-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 accounts-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+#Swagger UAT1
+10.171.243.127    products-exp-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    creditcard-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 lending-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    payment-exp-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com     
+10.171.243.127 firebase-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-exp-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 common-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 accounts-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 creditcard-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    products-exp-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    creditcard-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 lending-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    payment-exp-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com     
+10.171.243.127 firebase-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-exp-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 common-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 accounts-service-https-internal-uat2-oneapp.apps.ddid1.tmbcps.com
+10.171.6.92 stmoneachs1.tmbbank.local
+10.171.6.93 stmoneachs2.tmbbank.local
+10.171.6.94 stmoneachs3.tmbbank.local
+
+#Swagger UAT1
+10.171.243.127    products-exp-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    creditcard-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 lending-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127    payment-exp-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com     
+10.171.243.127 firebase-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-exp-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 common-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 customers-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+10.171.243.127 accounts-service-https-internal-uat1-oneapp.apps.ddid1.tmbcps.com
+
+#Redis UAT #
+10.171.243.26   stmoneachu1.tmbbank.local
+10.171.243.27   stmoneachu2.tmbbank.local
+10.171.243.28   stmoneachu3.tmbbank.local
+
+#Redis SIT1#
+10.171.6.92 stmoneachs1.tmbbank.local
+10.171.6.93 stmoneachs2.tmbbank.local
+10.171.6.94 stmoneachs3.tmbbank.local
+
+######################
+
+### MongoDB Server
+
+######################
+
+10.171.10.52    STMONEADBU4
+10.171.10.53    STMONEADBU5
+
+######################
+
+### Arbiter/Winess
+
+######################
+
+#172.28.58.68   SCLONEAWNU1 scloneawnu1.ttbbank.local
+172.25.37.33    SCLONEAWNU1 scloneawnu1.ttbbank.local
+
+## KAFKA ###
+
+10.171.0.81 stmoneamqd1.tmbbank.local
+10.171.0.85 stmoneamqv1.tmbbank.local
+10.171.6.91 stmoneamqs1.tmbbank.local
+
+# End of section
