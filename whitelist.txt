@@ -29,6 +29,7 @@
 @@||spclient.wg.spotify.com^$important
 ||opendns.com^$important
 @@||app.airasia.com^$important
+@@||hotstar.com^$important
 
 ##################################### ttb work ##########################################################
 169.254.156.100 host.docker.internal
