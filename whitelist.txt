@@ -1,12 +1,8 @@
-# allow all by client
-# @@||*.*^$client='192.168.68.240'
-# @@||*.*^$client='192.168.68.241'
-# @@||*.*^$client='192.168.68.242'
-##################################
 # custom rules
 /.*baidu.*/
 /.*taobao.*/
 @@||imasdk.googleapis.com^$important
+@@||downloads.gradle.org^$important
 ||yingwangtech.net^$important
 /.*mcafee.*/
 /.*bitdefender.*/
