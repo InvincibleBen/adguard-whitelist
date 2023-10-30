@@ -23,6 +23,5 @@
 ||www.googleadservices.com^$important
 # ||smartadserver.com^$important
 @@||spclient.wg.spotify.com^$important
-||opendns.com^$important
 @@||app.airasia.com^$important
 @@||hotstar.com^$important
