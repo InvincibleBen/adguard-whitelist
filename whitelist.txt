@@ -42,6 +42,5 @@
 @@||pin-river.data.ea.com^$important
 @@||bento.agoda.com^$important
 @@||www.googleadservices.com^$important
-@@||google.com^$important
 @@||pirate-bays.net^$important
 @@||thepiratebay.party^$important
