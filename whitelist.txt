@@ -39,7 +39,6 @@
 @@||.*trip.com^$important
 @@||tripcdn.com^$important
 @@||nflximg.net^$important
-@@||pin-river.data.ea.com^$important
 @@||bento.agoda.com^$important
 @@||www.googleadservices.com^$important
 @@||pirate-bays.net^$important
