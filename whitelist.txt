@@ -41,5 +41,12 @@
 @@||nflximg.net^$important
 @@||bento.agoda.com^$important
 @@||www.googleadservices.com^$important
-@@||pirate-bays.net^$important
-@@||thepiratebay.party^$important
+||baidu.com^$important
+/.*mcafee.*/
+/.*ads.*/
+@@/.*pornhub.*/
+@@/.*pirate.*bay.*/
+@@/.*jav.*/
+@@||uploadgig.com^$important
+@@/.*instagram.*/
+@@/.*facebook.*/
