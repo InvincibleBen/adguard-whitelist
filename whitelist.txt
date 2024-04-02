@@ -44,3 +44,6 @@
 @@/.*jav.*/
 @@/.*instagram.*/
 @@/.*facebook.*/
+@@/beacons.*gvt.*/
+/.*avast.*/
+@@mawtoload.com
