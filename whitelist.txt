@@ -1,27 +1,33 @@
-# custom rules
+# block
 /.*baidu.*/
 /.*taobao.*/
-@@||imasdk.googleapis.com^$important
-@@||downloads.gradle.org^$important
 ||yingwangtech.net^$important
 /.*mcafee.*/
 /.*bitdefender.*/
 /.*mobicontrol.*/
 /.*ads.*/
 ||skyhigh.cloud^$important
+/.*kaspersky.*/
+||www.googleadservices.com^$important
+||h-adashx.ut.lazada.com^$important
+/.*baidu.*/
+/.*mcafee.*/
+/.*ads.*/
+/.*avast.*/
+
+# allow
+@@||imasdk.googleapis.com^$important
+@@||downloads.gradle.org^$important
 @@||vk.com^$important
 @@||connect.facebook.com^$important
 @@||connect.facebook.net^$important
 @@||windows.com^$important
 @@||microsoft.com^$important
 @@||bing.com^$important
-/.*kaspersky.*/
 @@||tt-torrent.com^$important
 @@||click.discord.com^$important
 @@||mega.nz^$important
 @@||mega.co.nz^$important
-||www.googleadservices.com^$important
-# ||smartadserver.com^$important
 @@||spclient.wg.spotify.com^$important
 @@||app.airasia.com^$important
 @@||hotstar.com^$important
@@ -31,19 +37,14 @@
 @@||discord-attachments-uploads-prd.storage.googleapis.com^$important
 @@||.*discord-attachments-uploads.*
 @@||firebaseinstallations.googleapis.com^$important
-||h-adashx.ut.lazada.com^$important
 @@||b-graph.facebook.com^$important
 @@||graph.facebook.com^$important
 @@||graph.instagram.com^$important
 @@||nflximg.net^$important
-/.*baidu.*/
-/.*mcafee.*/
-/.*ads.*/
 @@/.*pornhub.*/
 @@/.*pirate.*bay.*/
 @@/.*jav.*/
 @@/.*instagram.*/
 @@/.*facebook.*/
 @@/beacons.*gvt.*/
-/.*avast.*/
 @@mawtoload.com
