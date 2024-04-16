@@ -17,29 +17,17 @@
 
 # allow
 @@||imasdk.googleapis.com^$important
-@@||downloads.gradle.org^$important
 @@||vk.com^$important
 @@||connect.facebook.com^$important
 @@||connect.facebook.net^$important
-@@||windows.com^$important
-@@||microsoft.com^$important
-@@||bing.com^$important
-@@||tt-torrent.com^$important
 @@||click.discord.com^$important
 @@||mega.nz^$important
 @@||mega.co.nz^$important
-@@||spclient.wg.spotify.com^$important
-@@||app.airasia.com^$important
-@@||hotstar.com^$important
 @@||gradle.org^$important
 @@||downloads.sourceforge.net^$important
 @@||postto.me^$important
 @@||discord-attachments-uploads-prd.storage.googleapis.com^$important
-@@||.*discord-attachments-uploads.*
 @@||firebaseinstallations.googleapis.com^$important
-@@||b-graph.facebook.com^$important
-@@||graph.facebook.com^$important
-@@||graph.instagram.com^$important
 @@||nflximg.net^$important
 @@/.*pornhub.*/
 @@/.*pirate.*bay.*/
