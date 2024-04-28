@@ -8,7 +8,6 @@
 /.*ads.*/
 ||skyhigh.cloud^$important
 /.*kaspersky.*/
-||www.googleadservices.com^$important
 ||h-adashx.ut.lazada.com^$important
 /.*baidu.*/
 /.*mcafee.*/
