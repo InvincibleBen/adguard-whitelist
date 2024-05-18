@@ -1,18 +1,15 @@
 # block
 /.*baidu.*/
 /.*taobao.*/
-||yingwangtech.net^$important
 /.*mcafee.*/
 /.*bitdefender.*/
 /.*mobicontrol.*/
 /.*ads.*/
-||skyhigh.cloud^$important
 /.*kaspersky.*/
-||h-adashx.ut.lazada.com^$important
-/.*baidu.*/
 /.*mcafee.*/
 /.*ads.*/
 /.*avast.*/
+/.*norton.*/
 
 # allow
 @@||imasdk.googleapis.com^$important
@@ -27,11 +24,3 @@
 @@||postto.me^$important
 @@||discord-attachments-uploads-prd.storage.googleapis.com^$important
 @@||firebaseinstallations.googleapis.com^$important
-@@||nflximg.net^$important
-@@/.*pornhub.*/
-@@/.*pirate.*bay.*/
-@@/.*jav.*/
-@@/.*instagram.*/
-@@/.*facebook.*/
-@@/beacons.*gvt.*/
-@@mawtoload.com
