@@ -16,11 +16,4 @@
 @@||vk.com^$important
 @@||connect.facebook.com^$important
 @@||connect.facebook.net^$important
-@@||click.discord.com^$important
-@@||mega.nz^$important
-@@||mega.co.nz^$important
 @@||gradle.org^$important
-@@||downloads.sourceforge.net^$important
-@@||postto.me^$important
-@@||discord-attachments-uploads-prd.storage.googleapis.com^$important
-@@||firebaseinstallations.googleapis.com^$important
