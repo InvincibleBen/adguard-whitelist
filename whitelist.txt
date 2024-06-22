@@ -10,6 +10,7 @@
 /.*ads.*/
 /.*avast.*/
 /.*norton.*/
+||internetdownloadmanager.com^$important
 
 # allow
 @@||imasdk.googleapis.com^$important
@@ -17,3 +18,25 @@
 @@||connect.facebook.com^$important
 @@||connect.facebook.net^$important
 @@||gradle.org^$important
+@@||btdig.com^$important
+@@||acdid.acdsystems.com^$important
+@@||blogspot.com^$important
+@@||mask.icloud.com^$important
+@@||mqtt-mini.facebook.com^$important
+@@||googleapis.com^$important
+@@||apple.com^$important
+@@/.*tailscale.*/
+@@/.*firebase.*googleapis.*/
+@@||one.one.one.one^$important
+@@||pantip.com^$important
+@@||googleusercontent.com^$important
+@@||clientservices.googleapis.com^$important
+@@||sdk.split.io^$important
+@@||web.facebook.com^$important
+@@/.*graph.facebook.com/
+@@||graph.instagram.com^$important
+@@||searchapi.agoda.com^$important
+@@||gen4.ninja^$important
+@@||events.gfe.nvidia.com^$important
+@@||nvda.d2.sc.omtrdc.net^$important
+@@||postimg.cc^$important
