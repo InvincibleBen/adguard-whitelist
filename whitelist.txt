@@ -31,12 +31,11 @@
 @@||pantip.com^$important
 @@||googleusercontent.com^$important
 @@||clientservices.googleapis.com^$important
-@@||sdk.split.io^$important
 @@||web.facebook.com^$important
 @@/.*graph.facebook.com/
 @@||graph.instagram.com^$important
 @@||searchapi.agoda.com^$important
 @@||gen4.ninja^$important
-@@||events.gfe.nvidia.com^$important
+# @@||events.gfe.nvidia.com^$important
 @@||nvda.d2.sc.omtrdc.net^$important
 @@||postimg.cc^$important
