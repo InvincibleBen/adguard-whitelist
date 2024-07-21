@@ -10,7 +10,7 @@
 /.*ads.*/
 /.*avast.*/
 /.*norton.*/
-||internetdownloadmanager.com^$important
+/.*internetdownloadmanager.*/
 
 # allow
 @@||imasdk.googleapis.com^$important
@@ -23,7 +23,6 @@
 @@||blogspot.com^$important
 @@||mask.icloud.com^$important
 @@||mqtt-mini.facebook.com^$important
-@@||googleapis.com^$important
 @@/.*tailscale.*/
 @@/.*firebase.*googleapis.*/
 @@||one.one.one.one^$important
