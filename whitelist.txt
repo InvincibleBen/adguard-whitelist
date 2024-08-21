@@ -11,6 +11,29 @@
 /.*avast.*/
 /.*norton.*/
 /.*internetdownloadmanager.*/
+/.*opendns.*/
+/.*cisco.*/
+/.*jamf.*/
+/.*aheadall.*/
+/.*samsungqbe.*/
+/.*bet.*/
+@@||gamedownloads.rockstargames.com^$important
+@@||gamedownloads-rockstargames-com.akamaized.net^$important
+||iadsdk.apple.com^$important
+||metrics.icloud.com^$important
+||api-adservices.apple.com^$important
+||notes-analytics-events.apple.com^$important
+||weather-analytics-events.apple.com^$important
+||books-analytics-events.apple.com^$important
+@@||termux.net^$important
+@@||ota-downloads.nvidia.com^$important
+@@/.*pirate.*/
+@@/.*torrent.*/
+@@||kali.download^$important
+@@||ak-d.tripcdn.com^$important
+@@||thpq3mp1lg7s0eu7tsq7pfj6q.litix.io^$client='192.168.68.3'
+@@||ow.pubmatic.com^$client='192.168.68.3'
+
 
 # allow
 @@||imasdk.googleapis.com^$important
