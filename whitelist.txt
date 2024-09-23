@@ -13,7 +13,6 @@
 /.*internetdownloadmanager.*/
 /.*jamf.*/
 /.*aheadall.*/
-/.*samsungqbe.*/
 /.*bet.*/
 @@||gamedownloads.rockstargames.com^$important
 @@||gamedownloads-rockstargames-com.akamaized.net^$important
