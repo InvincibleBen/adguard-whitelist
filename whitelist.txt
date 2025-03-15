@@ -19,7 +19,7 @@
 @@||graph.instagram.com^$important
 @@||searchapi.agoda.com^$important
 @@||gen4.ninja^$important
-# @@||events.gfe.nvidia.com^$important
+@@||events.gfe.nvidia.com^$important
 @@||nvda.d2.sc.omtrdc.net^$important
 @@||postimg.cc^$important
 @@||gamedownloads.rockstargames.com^$important
@@ -30,3 +30,23 @@
 @@/.*torrent.*/^$important
 @@||kali.download^$important
 @@||ak-d.tripcdn.com^$important
+@@||thpq3mp1lg7s0eu7tsq7pfj6q.litix.io^$important
+@@||ow.pubmatic.com^$important
+@@||downloads.sourceforge.net^$important
+@@||hooks.slack.com^$important
+@@||oauth2.dance^$important
+@@||storeedgefd.dsx.mp.microsoft.com^$important
+@@/*clients*google.com.*/
+@@||gvt1.com^$important
+@@/*.gvt*/^$important
+@@||onlyfree.fan^$important
+@@||www.lovelyspa.vip^$important
+@@||lovelyspa.vip^$important
+@@/.*shorturl.*/^$important
+@@||lazcdn.com^$important
+@@||www.docker.com^$important
+@@||geotrust.com^$important
+@@||line.biz^$important
+@@||samsungcloudsolution.com
+@@||samsungcloudsolution.net
+@@||apache.org^$important
