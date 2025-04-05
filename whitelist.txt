@@ -47,6 +47,4 @@
 @@||www.docker.com^$important
 @@||geotrust.com^$important
 @@||line.biz^$important
-@@||samsungcloudsolution.com
-@@||samsungcloudsolution.net
 @@||apache.org^$important
